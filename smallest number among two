@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("Enter the numbers to find smallest number\n");
+    scanf("%d%d",&a,&b);
+    printf("\nSmallest Number : \n%d ", b>a ? a:b);
+}
