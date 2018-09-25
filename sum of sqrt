@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+     int n,a[100],b[100],i,j,c;
+     printf("Enter tne number of elements\n");
+     scanf("%d",&n);
+     printf("Enter the array elements\n");
+     for (i=0;i<n;i++);
+     {
+         scanf("%d",&a[i]);
+     }
+     i=0;
+     j=0;
+     while (i<n)
+     {
+         b[j]=sqrt(a[i]);
+         i++;
+         j++;
+    }
+    for (j=0;j<n;j++)
+    {
+        c=b[j]+b[j+1];
+    }
+    printf("the sum of square roots of n numbers is %d",c);
+}
